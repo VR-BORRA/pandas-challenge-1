@@ -402,7 +402,6 @@ client_summary_df
 final_summary_report = (
     client_summary_df.sort_values(by="Total Profit (millions)", ascending=False)
     .copy()
-    .reset_index()
 )
 
 final_summary_report
