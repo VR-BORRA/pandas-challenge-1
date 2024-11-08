@@ -402,7 +402,6 @@ client_summary_df
 final_summary_report = (
     client_summary_df.sort_values(by="Total Profit (millions)", ascending=False)
     .copy()
-    .reset_index()
 )
 
 final_summary_report
@@ -412,3 +411,14 @@ final_summary_report
     <img src="images\img_19.png">
 </figure>
 
+
+## Observations
+The top 3 selling categories are consumables, furniture software, and bathroom supplies are the most selling items which tops all other items in the consumables and across all other categories. 
+
+Jessica Reyes is the top buying customer with 220 purchases. Kelly	Watson is at the bottom with only one purchase.
+
+However, Jessica is not on top based on the amount, she spent $8,377,308 compared to Kendra	Garrett who spent $83,268,892 being ranking 5 in number of items purchased. 
+
+Kendar Garrett with client_id 24741 is more profitable to company compared to Jesscica Reyes in spite of being number 1 ranking in purchases. 
+
+It's price of the item and units which makes a company profit and not the number of times the order was placed (example Jessica Reyes). Kendra Garrett made company 36.5 millions in profit while Jessica Reyes made 2.2 million in profit.
