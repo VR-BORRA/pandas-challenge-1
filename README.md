@@ -45,7 +45,7 @@ client_df.info()
 client_df["category"].value_counts().nlargest(3)
 ```
 <figure>
-    <img src="images\img_5.png">
+    <img src="images\img_5.png" width="225" height="100">
 </figure>
 
 ```python
@@ -57,7 +57,7 @@ cat_group.get_group(top_category)["subcategory"].value_counts().nlargest(1)
 ```
 
 <figure>
-    <img src="images\img_6.png">
+    <img src="images\img_6.png" height=75 width=180>
 </figure>
 
 ```python
